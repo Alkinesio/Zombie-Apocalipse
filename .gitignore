@@ -1,0 +1,9 @@
+*
+
+!.gitignore/
+!.gitattributes/
+!config/
+!kubejs/
+!mods/
+!resourcepacks/
+!shaderpacks/
