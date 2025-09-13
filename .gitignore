@@ -1,8 +1,0 @@
-# Ignore all files
-*
-
-# Whitelist these folders
-!mods/
-!mods/**
-!config/
-!config/**
