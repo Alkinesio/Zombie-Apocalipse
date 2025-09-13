@@ -1,0 +1,47 @@
+[
+{
+    "phase": "after_initial_delay",
+    "hostile": true,
+    "result": "allow"
+},
+  {
+    "hostile": true,
+    "result": "deny"
+  },
+
+{
+    "mob": "minecraft:zombie",
+    "baby": true,
+    "onjoin": true,
+    "result": "deny"
+},
+{
+    "mob": "goatman:goatman",
+	"minheight": -64,
+	"maxheight": 62,
+    "onjoin": true,
+    "result": "deny"
+},
+{
+    "mob": "goatman:goatman",
+	"minheight": 160,
+	"maxheight": 330,
+    "onjoin": true,
+    "result": "deny"
+},
+  {
+    "mob": "the_origin:the_origin",
+    "dimension": "minecraft:overworld",
+	"minheight": 60,
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "cave_dweller:cave_dweller",
+    "dimension": "minecraft:overworld",
+	"minheight": 60,
+    "onjoin": true,
+    "result": "deny"
+  }  
+  
+]

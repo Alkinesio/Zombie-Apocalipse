@@ -1,0 +1,337 @@
+
+[Weight]
+	#The weight system is responsible for limiting the weight using the Epic Fight mod
+	"Weight System" = true
+	#The bonus weight value added for each Endurance level
+	"Weight for Level" = 1.0
+	"Weight Base" = 50.0
+
+["Exp Management"]
+	#This is a custom bonus of exp for each killed mob
+	"Exp Bonus" = 5.0
+	#The random max value to the needed exp 
+	"Exp Max Limit" = 100.0
+	#The random min value to the needed exp 
+	"Exp Min Limit" = 50.0
+	#Determines whether or not to use the old formula to level up (more difficult)
+	"Old Exp Format" = false
+	#Determines a division to the formula, the maximum value of the result will be divided by the assigned number. (Only edit if you know what you're doing)
+	"Divisible Exp" = false
+	"Divisible Exp Value" = 0.0
+	#This value will be used as the basis for the level up formula
+	"Exp Base" = 50.0
+	#Defines whether Minecraft experience can be exchanged for Epic Stats experience
+	"Exchange Exp" = false
+	#The amount of Exp for each vanilla level
+	"Exchange Value" = 20.0
+
+["Strength Config"]
+	#This config allow the user change the Strength value per level
+	"level 1" = 0.5
+	"level 2" = 1.0
+	"level 3" = 1.5
+	"level 4" = 2.0
+	"level 5" = 2.5
+	"level 6" = 3.0
+	"level 7" = 3.5
+	"level 8" = 4.0
+	"level 9" = 4.5
+	"level 10" = 5.0
+	"level 11" = 5.5
+	"level 12" = 6.0
+	"level 13" = 6.5
+	"level 14" = 7.0
+	"level 15" = 7.5
+	"level 16" = 8.0
+	"level 17" = 8.5
+	"level 18" = 9.0
+	"level 19" = 9.5
+	"level 20" = 10.0
+	"level 21" = 10.5
+	"level 22" = 11.0
+	"level 23" = 11.5
+	"level 24" = 12.0
+	"level 25" = 12.5
+	"level 26" = 13.0
+	"level 27" = 13.5
+	"level 28" = 14.0
+	"level 29" = 14.5
+	"level 30" = 15.0
+	#This value is applied when the player got the max STR points
+	"Strength Knockback Bonus" = 1.0
+
+["Endurance Config"]
+	#This config allow the user change the Endurance value per level
+	"level 1" = 0.0
+	"level 2" = 0.5
+	"level 3" = 1.0
+	"level 4" = 1.5
+	"level 5" = 2.0
+	"level 6" = 2.5
+	"level 7" = 3.0
+	"level 8" = 3.5
+	"level 9" = 4.0
+	"level 10" = 4.5
+	"level 11" = 5.0
+	"level 12" = 5.5
+	"level 13" = 6.0
+	"level 14" = 6.5
+	"level 15" = 7.0
+	"level 16" = 7.5
+	"level 17" = 8.0
+	"level 18" = 8.5
+	"level 19" = 9.0
+	"level 20" = 9.5
+	"level 21" = 10.0
+	"level 22" = 10.5
+	"level 23" = 11.0
+	"level 24" = 11.5
+	"level 25" = 12.0
+	"level 26" = 12.5
+	"level 27" = 13.0
+	"level 28" = 13.5
+	"level 29" = 14.0
+	"level 30" = 15.0
+	#This value is applied when the player got the max Endurance points
+	"Armor Toughness" = 2.0
+
+["Vitality Config"]
+	#This config allow the user change the Vitality value per level
+	"level 1" = 20.0
+	"level 2" = 21.0
+	"level 3" = 22.0
+	"level 4" = 23.0
+	"level 5" = 24.0
+	"level 6" = 25.0
+	"level 7" = 26.0
+	"level 8" = 27.0
+	"level 9" = 28.0
+	"level 10" = 29.0
+	"level 11" = 30.0
+	"level 12" = 31.0
+	"level 13" = 32.0
+	"level 14" = 33.0
+	"level 15" = 34.0
+	"level 16" = 35.0
+	"level 17" = 36.0
+	"level 18" = 37.0
+	"level 19" = 38.0
+	"level 20" = 39.0
+	"level 21" = 40.0
+	"level 22" = 41.0
+	"level 23" = 42.0
+	"level 24" = 43.0
+	"level 25" = 44.0
+	"level 26" = 45.0
+	"level 27" = 46.0
+	"level 28" = 47.0
+	"level 29" = 48.0
+	"level 30" = 50.0
+
+["Intelligence Config"]
+	#(This config requires iron spell mod)
+	#This config allow the user change the Intelligence value per level
+	#Cast Time Reduction
+	"level 1" = 1.0
+	"level 2" = 1.1
+	"level 3" = 1.2
+	"level 4" = 1.3
+	"level 5" = 1.4
+	"level 6" = 1.5
+	"level 7" = 1.6
+	"level 8" = 1.7
+	"level 9" = 1.8
+	"level 10" = 1.9
+	"level 11" = 2.0
+	"level 12" = 2.1
+	"level 13" = 2.2
+	"level 14" = 2.3
+	"level 15" = 2.4
+	"level 16" = 2.5
+	"level 17" = 2.6
+	"level 18" = 2.7
+	"level 19" = 2.8
+	"level 20" = 2.9
+	"level 21" = 3.0
+	#Cooldown of spells (level 22 and up)
+	#Cooldown of spells (level 22 and up)
+	"level 22" = 1.1
+	"level 23" = 1.2
+	"level 24" = 1.3
+	"level 25" = 1.4
+	"level 26" = 1.5
+	"level 27" = 1.6
+	"level 28" = 1.7
+	"level 29" = 1.8
+	"level 30" = 2.0
+	#Spell Power
+	"Spell Power Value" = 4.0
+
+["Magic/Mana Config"]
+	#(This config requires iron spell mod)
+	#this config allow the user change the Magic/Mana value per level
+	#The value of Mana added 
+	"level 1" = 0.0
+	"level 2" = 50.0
+	"level 3" = 90.0
+	"level 4" = 130.0
+	"level 5" = 140.0
+	"level 6" = 150.0
+	"level 7" = 160.0
+	"level 8" = 170.0
+	"level 9" = 180.0
+	"level 10" = 190.0
+	"level 11" = 200.0
+	"level 12" = 210.0
+	"level 13" = 220.0
+	"level 14" = 230.0
+	"level 15" = 240.0
+	"level 16" = 250.0
+	"level 17" = 260.0
+	"level 18" = 270.0
+	"level 19" = 280.0
+	"level 20" = 320.0
+	#Spell Resist
+	#Spell Resist (level 21 and up)
+	"level 21" = 1.1
+	"level 22" = 1.2
+	"level 23" = 1.3
+	"level 24" = 1.4
+	"level 25" = 1.5
+	"level 26" = 1.6
+	"level 27" = 1.7
+	"level 28" = 1.8
+	"level 29" = 1.9
+	"level 30" = 2.2
+
+["Dexterity Config"]
+	#This config allow the user change the DEX value per level
+	"level 1" = 4.0
+	"level 2" = 4.1
+	"level 3" = 4.2
+	"level 4" = 4.3
+	"level 5" = 4.4
+	"level 6" = 4.5
+	"level 7" = 4.6
+	"level 8" = 4.7
+	"level 9" = 4.8
+	"level 10" = 4.9
+	"level 11" = 4.1
+	"level 12" = 4.11
+	"level 13" = 4.12
+	"level 14" = 4.13
+	"level 15" = 4.14
+	"level 16" = 4.15
+	"level 17" = 4.16
+	"level 18" = 4.17
+	"level 19" = 4.18
+	"level 20" = 4.19
+	"level 21" = 4.44
+	"level 22" = 4.55
+	"level 23" = 4.66
+	"level 24" = 4.77
+	"level 25" = 4.88
+	"level 27" = 4.92
+	"level 28" = 4.99
+	"level 30" = 5.2
+	"level 29" = 5.1
+
+["Stamina Config"]
+	#(This config require Epic Fight)
+	#Epic Fight Config
+	"level 1" = 15.0
+	"level 2" = 16.0
+	"level 3" = 17.0
+	"level 4" = 18.0
+	"level 5" = 19.0
+	"level 6" = 20.0
+	"level 7" = 21.0
+	"level 8" = 22.0
+	"level 9" = 23.0
+	"level 10" = 24.0
+	"level 11" = 25.0
+	"level 12" = 26.0
+	"level 13" = 27.0
+	"level 14" = 28.0
+	"level 15" = 29.0
+	"level 16" = 30.0
+	"level 17" = 31.0
+	"level 18" = 32.0
+	"level 19" = 33.0
+	"level 20" = 34.0
+	"level 21" = 35.0
+	"level 22" = 36.0
+	"level 23" = 37.0
+	"level 24" = 38.0
+	"level 25" = 39.0
+	"level 26" = 40.0
+	"level 27" = 41.0
+	"level 28" = 42.0
+	"level 29" = 43.0
+	"level 30" = 44.0
+	#Paraglider Mod Config
+	#Paraglider Mod Config
+	"Plevel 1" = 0.0
+	"Plevel 2" = 50.0
+	"Plevel 3" = 100.0
+	"Plevel 4" = 150.0
+	"Plevel 5" = 200.0
+	"plevel 6" = 250.0
+	"Plevel 7" = 300.0
+	"Plevel 8" = 350.0
+	"Plevel 9" = 400.0
+	"Plevel 10" = 450.0
+	"Plevel 11" = 500.0
+	"Plevel 12" = 550.0
+	"Plevel 13" = 600.0
+	"Plevel 14" = 650.0
+	"Plevel 15" = 700.0
+	"Plevel 16" = 750.0
+	"Plevel 17" = 800.0
+	"Plevel 18" = 850.0
+	"Plevel 19" = 900.0
+	"Plevel 20" = 950.0
+	"Plevel 21" = 1000.0
+	"Plevel 22" = 1050.0
+	"Plevel 23" = 1100.0
+	"Plevel 24" = 1150.0
+	"Plevel 25" = 1200.0
+	"Plevel 26" = 1250.0
+	"Plevel 27" = 1300.0
+	"Plevel 28" = 1350.0
+	"Plevel 29" = 1400.0
+	"Plevel 30" = 1500.0
+
+["Luck Config"]
+	#This config allow the user change the LUCK value per level
+	"level 1" = 0.0
+	"level 2" = 0.1
+	"level 3" = 0.2
+	"level 4" = 0.3
+	"level 5" = 0.4
+	"level 6" = 0.5
+	"level 7" = 0.5
+	"level 8" = 0.6
+	"level 9" = 0.7
+	"level 10" = 0.8
+	"level 11" = 0.9
+	"level 12" = 1.0
+	"level 13" = 1.1
+	"level 14" = 1.2
+	"level 15" = 1.3
+	"level 16" = 1.4
+	"level 17" = 1.5
+	"level 18" = 1.6
+	"level 19" = 1.7
+	"level 20" = 1.8
+	"level 21" = 1.9
+	"level 22" = 2.0
+	"level 23" = 2.1
+	"level 24" = 2.2
+	"level 25" = 2.3
+	"level 26" = 2.4
+	"level 27" = 2.5
+	"level 28" = 2.6
+	"level 29" = 2.8
+	"level 30" = 3.0
+

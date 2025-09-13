@@ -1,0 +1,53 @@
+{
+	"useDebugLogging": false, 
+	// Configures chunk loader item consumption
+	"cost": {
+		// Change this to set the itemstack consumed.
+		"itemStack": {
+			"item": "minecraft.ender_pearl", 
+			"size": 1
+		}, 
+		// Set to true to enable this feature.
+		"enabled": false, 
+		// The time in seconds each item grants per chunk loader.
+		"timeSecondsGained": 14400
+	}, 
+	// The maximum time in milliseconds it can take to tick a chunk completely.
+	// If this time is exceeded the chunk will be considered 'overticked' and
+	// the loader temporarily disabled. Note these ranges are super arbitrary,
+	// Running with 0 will functionally disable the mod and running at 1000
+	// will only disable chunks if they take an entire second to process (1tps)
+	// which is basically gameplay ruining tps lag. The default here is equal to
+	// ~2 TPS per loaded chunk max which should be fair for well-designed end
+	// game bases.
+	"msPerChunk": 5, 
+	// The time in seconds a reloaded chunk is allowed to exist before chunk
+	// tick times are checked.
+	"reloadGracePeriod": 5, 
+	// Maximum number of times a chunk loader's range can be extended.
+	"maximumRangeExtensions": 1, 
+	// The lagometer effectively allows xraying chunks to find bases on chunk
+	// lag. On pvp servers I highly recommend setting this to true. On pve
+	// servers the lagometer is relatively harmless to player base security. Keep
+	// this false.
+	"lagometerNeedsChunkOwnership": false, 
+	// The time in seconds an overticked chunk needs to wait before being
+	// reloaded by a chunk loader.
+	"delayBeforeReload": 300, 
+	// When 2: Usage allowed in all computers. When 1: Usage banned in turtles
+	// and pocket computers. When 0: Usage banned in all computers
+	"lagometerComputerExposureLevel": 2, 
+	// Allows limiting number of loaded chunks.
+	"limitSettings": {
+		// Maximum number of concurrently loaded chunks a player/the environment
+		// can have
+		"limit": 63, 
+		// When enabled players can only have a certain number of concurrently
+		// forced chunks
+		"enabledForPlayers": false, 
+		// When enabled, the environment can only have a certain number of
+		// concurrently forced chunks. This is specifically included as a safeguard against
+		// non-player placed loaders.
+		"enabledForEnvironment": false
+	}
+}

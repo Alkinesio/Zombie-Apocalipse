@@ -1,0 +1,37 @@
+
+[client]
+	#If true, renders enchanted guns from Project Arsenal with the purple enchantment glint. True by default.
+	enableGunEnchantmentGlint = true
+
+	[client.gun_tooltip_info]
+		#If true, shows Reload Amount of the gun on the tooltip. True by default.
+		showReloadAmount = true
+		#If true, shows Fire Rate of the gun on the tooltip. True by default.
+		showFireRate = true
+		#If true, shows the gun's Fire Mode on the tooltip. True by default.
+		showFireMode = true
+		#If true, shows the Projectile Speed of projectiles fired from the gun on the tooltip. False by default.
+		showProjectileSpeed = false
+		#If true, shows the Projectile Spread of projectiles fired from the gun on the tooltip. False by default.
+		showProjectileSpread = false
+		#If true, shows a tooltip on guns that are not dyeable. True by default.
+		showNonDyeable = true
+
+	[client.hud_overlay]
+		#If true, shows HUD overlay with ammo counter and selected fire mode. True by default.
+		showHudOverlay = true
+		#Position of the HUD overlay on the screen. Currently, placement of the HUD overlay is only supported on the right side of the screen.
+		#Allowed Values: RIGHT_BOTTOM, RIGHT_TOP
+		overlayPosition = "RIGHT_BOTTOM"
+		#If true, shows the total amount of compatible reserve ammo a player has left in their inventory on the HUD overlay. True by default.
+		showReserveAmmo = true
+		#If true, shows HUD overlay when the debug menu (F3) is being shown. This option does not have any effect if the HUD overlay is already disabled. False by default.
+		showOverlayDuringDebug = false
+		#If true, shows HUD overlay when the game is paused or when the player is viewing an inventory or other menu. This option does not have any effect if the HUD overlay is already disabled. True by default.
+		showOverlayDuringPause = true
+		#If true, shows HUD overlay when the player is using the Minecraft chat screen. This option does not have any effect if the HUD overlay is already disabled entirely, or disabled during a game pause. False by default.
+		showOverlayDuringChat = false
+		#The theme of the HUD overlay. The theme affects the colors used in displaying the overlay.
+		#Allowed Values: DEFAULT, DEFAULT_DARK, DEFAULT_DARK_NAVY, FUSION_LIGHT_BLUE, FUSION_LIGHT_RED, FUSION_LIGHT_ORANGE, FUSION_LIGHT_GREEN, FUSION_LIGHT_PURPLE, FUSION_DARK_BLUE, FUSION_DARK_RED, FUSION_DARK_ORANGE, FUSION_DARK_GREEN, FUSION_DARK_PURPLE, MATERIAL_GOLD, MATERIAL_DIAMOND, MATERIAL_LAPIS_LAZULI, MATERIAL_RUBY, MATERIAL_EMERALD, MATERIAL_AMETHYST, MATERIAL_STEEL, MATERIAL_IRON
+		overlayTheme = "DEFAULT"
+

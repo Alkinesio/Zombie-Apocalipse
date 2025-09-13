@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP ",
+    "PP ",
+    "   "
+  ],
+  "key": {
+    "P": {
+      "item": "twigs:cobblestone_bricks"
+    }
+  },
+  "result": {
+    "item": "quark:cobblestone_bricks",
+    "count": 4
+  }
+}

@@ -1,0 +1,6 @@
+
+#General mod settings
+[general]
+	#Mobs enhanced by zombie awareness
+	enhancedMobs = ["minecraft:zombie", "minecraft:husk", "minecraft:drowned", "mutantmonsters:mutant_zombie"]
+

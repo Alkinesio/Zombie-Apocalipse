@@ -1,0 +1,23 @@
+
+["Spawn Rates"]
+	#Multiplier for Tormented Steve mob spawns. Set to 20 (maximum) and it will spawn 10 times more frequently (default value is 2). Set to 1 and it will spawn half as frequently, or to 0 to disable spawning entirely
+	tormented_steve_frequency = 2.0
+	#Multiplier for Disemboweler mob spawns. Set to 20 (maximum) and it will spawn 10 times more frequently (default value is 2). Set to 1 and it will spawn half as frequently, or to 0 to disable spawning entirely
+	disemboweler_frequency = 2.0
+	#Multiplier for Blood Eagle mob spawns. Set to 20 (maximum) and it will spawn 10 times more frequently (default value is 2). Set to 1 and it will spawn half as frequently, or to 0 to disable spawning entirely
+	blood_eagle_frequency = 2.0
+	#Multiplier for Skin Crawler mob spawns. Set to 20 (maximum) and it will spawn 10 times more frequently (default value is 2). Set to 1 and it will spawn half as frequently, or to 0 to disable spawning entirely
+	skin_crawler_frequency = 2.0
+	#Multiplier for Brutaliser mob spawns. Set to 20 (maximum) and it will spawn 10 times more frequently (default value is 2). Set to 1 and it will spawn half as frequently, or to 0 to disable spawning entirely
+	brutaliser_frequency = 2.0
+	#Multiplier for Spine Wrencher mob spawns. Set to 20 (maximum) and it will spawn 10 times more frequently (default value is 2). Set to 1 and it will spawn half as frequently, or to 0 to disable spawning entirely
+	spine_wrencher_frequency = 2.0
+
+[Mechanics]
+	#Toggles whether blood eagle is tameable (can be ridden and can fly) with 10 deathly hearts dropped by disembowelers
+	tameable_blood_eagle = true
+	#Allow skin crawlers to mine stone and deepslate to get to you? Also controlled by mob griefing gamerules
+	stone_mining_crawlers = true
+	#Option to additionally let zoniex mobs spawn in the nether - Disabled by default.
+	add_to_nether = false
+

@@ -1,0 +1,44 @@
+
+[Souls]
+	"Soul/Dark Soul drop chance, % [default=6]" = 10.0
+	"(Soul Harvest) Soul/Dark Soul drop chance, % [default=13]" = 13.0
+	"Soul escape chance, per second, % [default=6]" = 5.0
+	"(Soul Harvest) Soul escape chance, per second, % [default=13]" = 10.0
+	"Dark Soul escape chance, per second, % [default=6]" = 5.0
+	"(Soul Harvest) Dark Soul escape chance, per second, % [default=13]" = 13.0
+	"Horrifying Soul escape chance, per second, % [default=2]" = 2.0
+	"(Soul Harvest) Horrifying Soul escape chance, per second, % [default=4]" = 4.0
+	"Dragon Soul escape chance, per second, % [default=2]" = 2.0
+	"(Soul Harvest) Dragon Soul escape chance, per second, % [default=4]" = 4.0
+	"Cursed Altar: Soul energy value [default=1]" = 1.0
+	"Cursed Altar: Dark Soul energy value [default=3]" = 3.0
+	"Cursed Altar: Horrifying Soul energy value [default=50]" = 50.0
+	"Cursed Altar: Dragon Soul energy value [default=100]" = 100.0
+
+[Demons]
+	"Chance that a lost Dark Soul will turn into Fiend, % [default=50]" = 100.0
+	"(Soul Harvest) Chance that a lost Dark Soul will turn into Fiend, % [default=70]" = 100.0
+	"(Totem of Undying) Reaper spawn chance, % [default=50]" = 1.0
+	"(Human is low health) Reaper spawn chance, % [default=10]" = 50.0
+	"(Human is low health) Delay before Reaper tries to spawn, seconds [default=10]" = 60.0
+	"Reaper can spawn when Totem of Undying is activated [default=true]" = true
+	"Reaper can spawn when human is low health [default=true]" = true
+	"Regular demons full moon empowerment [default=true]" = true
+	"Dreamcatcher spawn chance when player goes to bed, % [default=5]" = 1.0
+	"Dreamcatcher spawn chance when player goes to bed during Soul Harvest, % [default=10]" = 100.0
+	"Time before another Dreamcatcher can spawn, minutes [default=10]" = 0.1
+
+["Chat messages"]
+	"???'s tips in chat [default=true]" = true
+	"Cursed Altar's whispers in chat [default=true]" = true
+	"Restless Souls' cryings in chat [default=true]" = true
+	"Skeleton King's messages in chat [default=true]" = true
+	"Demon King's messages in chat [default=true]" = true
+	"Welcoming message in chat [default=true]" = true
+	"Welcoming message cooldown, minutes [default=60]" = 60.0
+
+[Other]
+	"Soul Harvest event [default=true]" = true
+	"Soul Harvest event: start sound [default=true]" = true
+	"Soul Harvest event: end sound [default=true]" = true
+

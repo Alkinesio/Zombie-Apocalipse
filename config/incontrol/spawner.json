@@ -1,0 +1,56 @@
+[
+
+{
+
+"mob": "minecraft:zombie",
+
+"persecond": 4,
+
+"attempts": 2,
+
+"amount": {
+
+"minimum": 10,
+
+"maximum": 40
+
+},
+
+"conditions": {
+
+"dimension": "minecraft:overworld",
+
+"norestrictions": true,
+
+"mindist": 75,
+
+"maxdist": 90,
+
+"minheight": 50,
+
+"maxheight": 256,
+
+"maxthis": 60
+
+}
+
+},
+
+  {
+    "mob": ["cave_dweller:cave_dweller", "the_origin:the_origin"],
+    "persecond": 18.0,
+    "attempts": 60,
+    "amount": { "minimum": 1, "maximum": 1 },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 11,
+      "maxdist": 18,
+      "maxthis": 1,
+      "maxheight": 60
+    }
+  }
+
+
+
+]

@@ -1,0 +1,4 @@
+{
+	// Specify mob IDs, dimensions and the items that mobs will have with some chance, all separated by a space
+	"equipments": []
+}

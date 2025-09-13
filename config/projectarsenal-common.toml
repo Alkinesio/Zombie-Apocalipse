@@ -1,0 +1,9 @@
+
+[common]
+
+	[common.experimental]
+		#If true, forces guns that have the dyeing behaviour turned off by default to be dye-able again. This option could be useful to modpack and/or resource pack developers. False by default.
+		forceGunDyeAbility = false
+		#If true, force disables tooltips related to the Fire Mode Selector on all guns using said feature. This option should only be used when this feature is causing issues. False by default.
+		forceDisableFireModeTooltips = false
+

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "initial_window",
+    "conditions": {
+      "mintime": 0,
+      "maxtime": 6000
+    }
+  },
+  {
+    "name": "after_initial_delay",
+    "conditions": {
+      "mintime": 6000
+    }
+  }
+
+]

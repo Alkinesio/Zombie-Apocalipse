@@ -1,0 +1,19 @@
+
+["Nonexistent+"]
+	"Enable Dark Souls drop from Astral Being [default=true]" = true
+
+["Born in Chaos"]
+	"Enable Souls drop from certain Born in Chaos mobs [default=true]" = true
+	"Enable Dark Souls drop from certain Born in Chaos mobs [default=true]" = true
+	"Enable Horrifying Souls drop from Born in Chaos bosses [default=true]" = true
+
+["Alex's Mobs"]
+	"Enable Souls drop from certain Alex's Mobs creatures [default=true]" = true
+	"Enable Dark Souls drop from certain Alex's Mobs creatures [default=true]" = true
+	"Enable Horrifying Soul drop from Void Worm from Alex's Mobs [default=true]" = true
+
+["Twilight Forest"]
+	"Enable Souls drop from certain Twilight Forest mobs [default=true]" = true
+	"Enable Dark Souls drop from certain Twilight Forest mobs [default=true]" = true
+	"Enable Souls drop from Twilight Forest bosses [default=true]" = true
+

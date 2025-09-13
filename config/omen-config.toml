@@ -1,0 +1,14 @@
+
+[Visual]
+	"Popup Gui" = true
+	"Show Beastiary Entries by default" = false
+	"Do Progression Break Punishment" = true
+	Screenshake = true
+
+[Gameplay]
+	"Block Breaking" = true
+	"Quicktime Events" = true
+	"Mangled Mobs" = true
+	"Higher Omen Spawns" = false
+	"Do mangled creeper exploding" = true
+

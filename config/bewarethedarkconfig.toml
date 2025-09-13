@@ -1,0 +1,45 @@
+#Whether Phantoms are allowed to spawn with the mod, false by default
+allowphantomstospawn = false
+#Whether non-client dynamic light is enabled (newly re-implemented in 1.19.2, warning, experimental and may cause FPS loss! Use Forge performance mods if enabled)
+allowdynamiclight = false
+#Whether passive mobs drop generic meat instead of pork/beef/etc
+mobsdropgenericmeat = true
+#Whether leaves drop pinecones instead of saplings
+pineconesassaplings = false
+#Whether to enable the game-rule limited crafting, which will force the player to unlock recipes via the Science Machine/Alchemy Engine and Blueprints
+enablerecipeprototyping = false
+#Whether to replace vanilla drops of blocks such as logs instead
+replacevanilladrops = false
+#Weight for the mod biomes generated using Terrablender
+#Range: 1 ~ 15
+terrablender_biome_weight = 7
+#Whether mod biomes will replace vanilla biomes occasionally, keeping this enabled makes the vanilla-bug of mod biomes generating underwater less likely
+terrablender_replace_vanilla_biomes = true
+#Whether mod biomes will generate with caves
+allow_cavegen_for_mod_biomes = false
+#Whether fishing returns only fish and nothing else
+dont_starve_style_fishing = false
+#Whether to replace vanilla title music with Don't Starve Together's title theme
+replace_title_music = true
+#Whether to mirror DS-style hunger; no saturation, residual-idle hunger drain and nerfed hunger-values for non crock pot foods
+dont_starve_style_hunger = true
+#How long in ticks for each time the player's hunger drains even while idle (1200 = 1 Minute)
+#Range: 600 ~ 4800
+hunger_tick = 2400
+#Whether Pumpkin Lanterns take much longer to perish when placed (like in DST); true sets it to their longer perish-time (7.1 days), false sets it to their original DS-version perish time of 1.3 days
+pumpkin_lantern_long_perish_time = false
+#Whether the mod's sanity system is enabled, disabling this make make future content difficult or near-impossible to obtain or complete
+enable_sanity = true
+#Whether increased gamma effects (brightness) are enabled for being under or at 75% sanity
+enable_sanity_gamma = true
+#Whether greyscale fog effects are enabled for being under or at 75% sanity
+enable_sanity_fog = true
+#Whether screen shake effects are enabled for being under or at 75% sanity
+enable_sanity_screenshake = true
+#Whether slowness and weakness is included with the poison effect to simulate how it functions in Don't Starve
+dont_starve_style_poison = true
+#Whether general fog effects are enabled (blue tint for full moons and dense grey fog in graveyards)
+enable_general_fog = true
+#If Sinkholes should bring you to the lowest free space in the Caves dimension
+spawn_deep = true
+
