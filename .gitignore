@@ -1,9 +1,18 @@
+# Ignore everything
 *
 
-!.gitignore/
-!.gitattributes/
+# Always keep ignore config files themselves
+!.gitignore
+!.gitattributes
+
+# Whitelisted folders (and their contents)
 !config/
+!config/**
 !kubejs/
+!kubejs/**
 !mods/
+!mods/**
 !resourcepacks/
+!resourcepacks/**
 !shaderpacks/
+!shaderpacks/**
